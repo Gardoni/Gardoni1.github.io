@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Rethink+Sans:wght@500&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+:root {
+    
+    --branco-principal: #FFFFFF;
+    --vermelho-secundario: #FF0000;
+    --branco-fundo-principal: #f5d4d4;
+    --preto-fundo-secundario: #000000;
+    --azul-botao: rgb(14, 48, 243);
+
+    --fonte-principal: 'Rethink Sans', sans-serif;
+    --fonte-secundaria: 'Roboto', sans-serif;
+
+}
+
+body{
+    box-sizing: border-box;
+    background-color: var(--branco-fundo-principal);
+}
+
+.cabecalho{
+    background-color: var(--vermelho-secundario);
+    padding: 2.5% 0% 0% 11%;
+}
+
+.cabecalho__menu{
+    margin-bottom: 0;
+    padding-bottom: 20px;
+    display: flex;
+    gap: 60px;
+}
+
+.cabecalho__menu__paginas{
+    font-family: var(--fonte-principal);
+    font-size: 1.7rem;
+    font-weight: 500;
+    color: var(--branco-principal);
+    text-decoration: none;
+}
+
+.apresentacao{
+    box-sizing: border-box;
+    text-align: center;
+    background-color: var(--branco-fundo-principal);
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.apresentacao__titulo{
+    font-size: 3rem;
+    font-family: var(--fonte-principal);
+    font-weight: 900;
+    color: var(--preto-fundo-secundario);
+}
+
+.apresentacao__texto{
+    font-size: 1.25rem;
+    font-family: var(--fonte-secundaria);
+    font-weight: 400;
+    color: var(--preto-fundo-secundario);
+    padding-right: 10.25rem;
+    padding-left: 10.25rem;
+}
+
+.apresentacao__imagem{
+    width: 50%;
+    height: auto;
+}
+
+.sobre{
+    box-sizing: border-box;
+    text-align: center;
+    background-color: var(--branco-fundo-principal);
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.sobre__titulo{
+    font-size: 3rem;
+    font-family: var(--fonte-principal);
+    font-weight: 900;
+    color: var(--preto-fundo-secundario);
+}
+
+.sobre__texto{
+    font-size: 1.25rem;
+    font-family: var(--fonte-secundaria);
+    font-weight: 400;
+    color: var(--preto-fundo-secundario);
+    padding-right: 10.25rem;
+    padding-left: 10.25rem;
+}
+
+.vendas{
+    background-color: var(--branco-fundo-principal);
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 20px;
+}
+
+.vendas__produtos{
+    background-color: var(--branco-principal);
+    width: 20%;
+    margin: 0 5px 30px 10px;/*margin: top, right*/
+    padding-right: 0.10rem;
+    padding-left: 0.10rem;
+}
+
+.vendas__produtos__imagem{
+    width: 50%;
+    height: auto;
+}
+
+.vendas__produtos__titulo{
+    font-family: var(--fonte-principal);
+    font-size: 1.5rem;
+}
+
+.vendas__produtos__preco{
+    font-family: var(--fonte-secundaria);
+    font-size: 1.5rem;
+}
+
+.vendas__produtos__botao{
+    font-family: var(--fonte-principal);
+    color: var(--branco-principal);
+    background-color: var(--azul-botao);
+    display: block;
+    border-radius: 3px;
+    margin-bottom: 0.5em;
+    text-decoration: none;
+}
+
+.informacoes__contato{
+    box-sizing: border-box;
+    text-align: center;
+    background-color: var(--branco-fundo-principal);
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.informacoes__contato__titulo{
+    font-size: 1.5rem;
+    font-family: var(--fonte-principal);
+    font-weight: 900;
+    color: var(--preto-fundo-secundario);
+}
+
+.informacoes__contato__texto{
+    font-size: 1rem;
+    font-family: var(--fonte-secundaria);
+    font-weight: 400;
+    color: var(--preto-fundo-secundario);
+    padding-right: 10.25rem;
+    padding-left: 10.25rem;
+}
+
+.rodape {
+    padding: 24px;
+    color: var(--branco-principal);
+    background-color: var(--vermelho-secundario);
+    text-align: center;
+    font-family: var(--fonte-secundaria);
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+
+
+
