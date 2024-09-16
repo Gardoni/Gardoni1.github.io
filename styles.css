@@ -168,6 +168,53 @@ body{
     font-weight: 400;
 }
 
+ /* Estilos para telas grandes (largura mínima de 769px) */
+@media (min-width: 769px) {
+    .listagem .listagem-item .imagem-produto:after {
+        content: "";
+        display: block;
+        padding-bottom: 100%;
+    }
+}
+
+/* Estilos para telas médias (largura máxima de 768px) */
+@media (max-width: 768px) {
+    .listagem .listagem-item .imagem-produto:after {
+        content: "";
+        display: block;
+        padding-bottom: 100%;
+    }
+}
+
+/* Estilos para telas pequenas (largura máxima de 600px) */
+@media (max-width: 600px) {
+    .content {
+        padding-bottom: 15vh; /* Ajuste conforme necessário para dispositivos móveis */
+    }
+    .add-to-cart {
+        width: 100%;
+        box-sizing: border-box; /* Garante que o preenchimento não aumente a largura total */
+    }
+    .product-grid {
+        grid-template-columns: 1fr; /* Altera para uma coluna em telas pequenas */
+    }
+    .product {
+        padding: 20px; /* Ajusta o padding para telas menores */
+    }
+    header nav ul {
+        flex-direction: column; /* Ajusta o menu de navegação para colunas em telas pequenas */
+    }
+    header nav ul li {
+        display: block; /* Faz com que os itens do menu sejam exibidos como blocos */
+        margin-bottom: 10px; /* Adiciona espaço entre os itens do menu */
+    }
+    .footer-bar {
+        font-size: 0.8em; /* Reduz o tamanho da fonte no rodapé para telas pequenas */
+    }
+}
+
+
+
 
 
 
